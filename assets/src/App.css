@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-image: url("./photos/TableBackground.jpg");
+  background-repeat: no-repeat;
+  height: 100em;
+  margin: 0;
+}
+
+.total {
+  color: whitesmoke;
+}
+
+#opening-header {
+  text-align: center;
+}
+
+.hands {
+  min-height: calc(80vh - 70px);
+}
+
+.delt-card {
+  display: inline-block;
+  margin: 0.2em;
+}
+
+img {
+  display: inline;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.game-board {
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+}
+
+.dealer-hand {
+  display: block;
+}
+.player-hand {
+  margin-top: 130px;
+}
+
+.game-buttons {
+  margin: 0.6em;
+  height: 50px
+}
