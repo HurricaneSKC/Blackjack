@@ -11,7 +11,7 @@ function Card(props) {
   } else if (props.newCard && props.isShowing === false) {
     return (
       <div className="delt-card">
-        <img src={back} alt={props.newCard.code} />
+        <img className="br-5" src={back} alt={props.newCard.code} />
       </div>
     );
   } else {

@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  background-image: url("./photos/TableBackground.jpg");
-  background-repeat: no-repeat;
-  height: 100em;
+  background-image: linear-gradient(to bottom, #1c7f38, #17702b, #11621e, #0a5412, #034605);
+  height: 100vh;
   margin: 0;
 }
 
@@ -15,7 +14,7 @@
 }
 
 .hands {
-  min-height: calc(80vh - 70px);
+  min-height: calc(80vh - 100px);
 }
 
 .delt-card {
@@ -25,6 +24,10 @@
 
 img {
   display: inline;
+}
+
+.br-5 {
+  border-radius: 5px;
 }
 
 li {
@@ -39,9 +42,10 @@ li {
 
 .dealer-hand {
   display: block;
+  padding-top: 50px;
 }
 .player-hand {
-  margin-top: 130px;
+  margin-top: 70px;
 }
 
 .game-buttons {
