@@ -275,7 +275,7 @@ export default class GameBoard extends Component {
   //game logic
   compareHands = (dealerTotal, playerTotal) => {
     if (dealerTotal > playerTotal) {
-      this.displayModal("Dealer wins...", true);
+      this.displayModal(`Dealer wins... with ${dealerTotal}`, true);
     } else if (playerTotal > dealerTotal) {
       this.displayModal("You win!", true);
     } else if (dealerTotal === playerTotal) {
