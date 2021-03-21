@@ -1,5 +1,5 @@
 import React from "react";
-import back from "./photos/cardBack.jpg";
+import back from "../photos/cardBack.jpg";
 
 function Card(props) {
   if ((props.newCard && props.isShowing === true) || props.index === 0) {

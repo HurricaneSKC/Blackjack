@@ -4,6 +4,7 @@ import PlayerHand from "./PlayerHand";
 import HitButton from "./HitButton";
 import StandButton from "./StandButton";
 import InGameModal from "./InGameModal";
+
 export default class GameBoard extends Component {
   constructor(props) {
     super(props)

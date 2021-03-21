@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import "./App.css";
-import GameBoard from "./GameBoard";
-import OpeningModal from "./OpeningModal";
+import GameBoard from "./components/GameBoard";
+import OpeningModal from "./components/OpeningModal";
 import "bootstrap/dist/css/bootstrap.min.css";
 class App extends Component {
   constructor() {
